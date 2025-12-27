@@ -59,18 +59,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AnimationBlend: 1
     - _AsyncOffset: 0.7
     - _AsyncOffsetFrames: 50
     - _ClipSize: 1
-    - _EndFrame: 560
+    - _EndFrame: 559
     - _MaxDist: 2.0063334
     - _Metallic: 0
+    - _PreviousEndFrame: 212
+    - _PreviousStartFrame: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
     - _Speed: 30
     - _SpeedController: 0.16666667
-    - _StartFrame: 0
+    - _StartFrame: 484
     - _StartOffset: 0
     - _TotalFrames: 560
     - _XRMotionVectorsPass: 1

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3749644016889224938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3601634263462758089}
+  - component: {fileID: 4300406062909139862}
+  m_Layer: 0
+  m_Name: AudienceAnimator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3601634263462758089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749644016889224938}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4300406062909139862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749644016889224938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7940c9b9c5e4c73a97b3c215f36ef4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Yudiz.PickleBall.AudienceAnimator
+  audienceMaterials:
+  - materials:
+    - {fileID: 2100000, guid: 7cc965ab6b1a34b969f2134a54fcf24b, type: 2}
+    - {fileID: 2100000, guid: 35b68013c3627465788d768a7e2af8a0, type: 2}
+    - {fileID: 2100000, guid: ce83b13aa1ad549f4becab9c40a04387, type: 2}
+    - {fileID: 2100000, guid: 11ff7a1e159cc4f8e99329762f8b05a5, type: 2}
+    - {fileID: 2100000, guid: a34f8e025fe0b46908393b1315b4436e, type: 2}
+    - {fileID: 2100000, guid: d1d86395da86a42da8a66e4f4b6256b6, type: 2}
+    - {fileID: 2100000, guid: 0b566b87491fb415aad5e7021c6c5312, type: 2}
+    idleAnimation:
+      clipName: SittingTalking
+      startFrame: 0
+      endFrame: 1322
+    celebrationAnimations:
+    - clipName: Standing Clap
+      startFrame: 1323
+      endFrame: 1448
+    - clipName: Standing Clap2
+      startFrame: 1449
+      endFrame: 1582
+    - clipName: Standing Cheering
+      startFrame: 1583
+      endFrame: 1686
+    - clipName: Cheering Sitting
+      startFrame: 1687
+      endFrame: 1767
+  - materials:
+    - {fileID: 2100000, guid: 8f2ea7dd197f64c6c9e18c8b2856de30, type: 2}
+    - {fileID: 2100000, guid: 39ee86f38dd6347d38d2e6dc95e9cb01, type: 2}
+    - {fileID: 2100000, guid: fb3fc80dd453244e7a5afee3b64d8d50, type: 2}
+    - {fileID: 2100000, guid: 12b478b79c11f45c9bedbe7f8a545859, type: 2}
+    - {fileID: 2100000, guid: 3755052f1b50d4bc9bb4c0cc1ab32357, type: 2}
+    - {fileID: 2100000, guid: 3ffd820524cd84a3a857620047f3dbe7, type: 2}
+    - {fileID: 2100000, guid: 5949bc3a3069f493e9b0d78eb87934bd, type: 2}
+    idleAnimation:
+      clipName: StandingIdle
+      startFrame: 0
+      endFrame: 212
+    celebrationAnimations:
+    - clipName: celebration
+      startFrame: 213
+      endFrame: 269
+    - clipName: celebration2
+      startFrame: 270
+      endFrame: 338
+    - clipName: celebration3
+      startFrame: 339
+      endFrame: 407
+    - clipName: applause
+      startFrame: 408
+      endFrame: 483
+    - clipName: applause2
+      startFrame: 484
+      endFrame: 559
+  celebrationDuration: 5
+  minDelayBetweenCelebrations: 0.1
+  maxDelayBetweenCelebrations: 1

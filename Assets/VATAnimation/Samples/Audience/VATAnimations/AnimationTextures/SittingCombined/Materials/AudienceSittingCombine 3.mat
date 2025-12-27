@@ -59,17 +59,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AnimationBlend: 1
     - _AsyncOffset: 0.7
     - _AsyncOffsetFrames: 50
     - _ClipSize: 1
     - _EndFrame: 1322
     - _MaxDist: 2.0745113
     - _Metallic: 0
+    - _PreviousEndFrame: 1686
+    - _PreviousStartFrame: 1583
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
     - _Speed: 30
-    - _SpeedController: 0
+    - _SpeedController: 1
     - _StartFrame: 0
     - _StartOffset: 0
     - _TotalFrames: 1768
@@ -78,7 +81,6 @@ Material:
     m_Colors:
     - _Tint: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!114 &3890905325052170948
 MonoBehaviour:
   m_ObjectHideFlags: 11
